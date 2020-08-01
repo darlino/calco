@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="output_operation"></div>
+        <div class="output_result">0</div>
+        <input type="text" id="text">
+        <button class="btn" onclick="displayNum(1)">1</button>
+        <button class="btn" onclick="displayNum(2)">2</button>
+        <button class="btn" onclick="displayNum(3)">3</button>
+        <button class="btn" onclick="displayNum(4)">4</button>
+        <button class="btn" onclick="displayNum(5)">5</button>
+        <button class="btn" onclick="displayNum(6)">6</button>
+        <button class="btn" onclick="displayNum(7)">7</button>
+        <button class="btn" onclick="displayNum(8)">8</button>
+        <button class="btn" onclick="displayNum(9)">9</button>
+        <button class="btn" onclick="displayNum(0)">0</button>
+        <button class="reset" onclick="reset()">delete</button>
+        <button class="plus"  onclick="displayNum('+')">+</button>
+        <button class="plus"  onclick="displayNum('.')">.</button>
+        <button class="plus"  onclick="displayNum('%')">%</button>
+        <button class="moins" onclick="displayNum('-')">-</button>
+        <button class="divisee" onclick="displayNum('/')">/</button>
+        <button class="multiplication" onclick="displayNum('*')">x</button>
+        <button class="egale" onclick="result()">=</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
